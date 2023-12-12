@@ -1,0 +1,35 @@
+.input-box{
+    border-style: none;
+    border-left: 5px solid red;
+    border-radius: 0;
+}
+
+#top-row{
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 700px){
+    #top-row{
+        margin-top: 0px;
+    }
+
+}
+
+
+@media only screen and (max-width: 290px){
+   #list-name{
+    width: 70%;
+    font-size: 0.9rem;
+
+   }
+   #instruction{
+    font-size: 0.7rem;
+   }
+
+}
+#valupdate{
+    display: none;
+}
+#alertbox{
+    display: none;
+}
